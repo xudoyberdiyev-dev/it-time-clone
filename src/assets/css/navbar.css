@@ -1,0 +1,123 @@
+.navbar{
+    width: 100%;
+    height: auto;
+}
+.navbar-hider{
+    width: 100%;
+    height: 50px;
+    padding: 8px 0px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(180, 44, 44);
+}
+.navbar-hider-container{
+    width: 88%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-hider-left{
+    width: 68px;
+    height: 28px;
+    background-color: blue;
+}
+.navbar-hider-right{
+    width: 506px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.navbar-hider-right a{
+    text-decoration: none;
+    color: white;
+}
+.contact-btn {
+    border: 1.5px solid white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 15.5px;
+    transition: 0.3s;
+  }
+  .contact-btn:hover {
+    background-color: white;
+    color: #b91c1c;
+  }
+.navbar-body{
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px 0px rgb(74, 71, 71);
+}
+.navbar-body-container{
+    width: 88%;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-body-left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.navbar-body-left img{
+    width: 140px;
+    height: 36px;
+}
+.navbar-body-right{
+    width: 694px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.navbar-body-right a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+    position: relative;
+  }
+.navbar-body-right span{
+    color: #ef4444; /* qizil slash */
+
+}
+.btn-consult {
+    background-color: #dc2626;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn-consult:hover {
+    background-color: #b91c1c;
+  }
+  .navbar-body-right a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* yozuvdan pastda */
+    width: 0%;
+    height: 2px;
+    background-color: #dc2626; /* qizil chiziq */
+    transition: width 0.3s ease;
+  }
+  
+  .navbar-body-right a:hover::after {
+    width: 100%;
+  }
