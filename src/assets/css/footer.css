@@ -4,28 +4,45 @@
     display: flex;
     align-items: start;
     justify-content: center;
-    background-color: aqua;
 }
 .footer-body{
     width: 88%;
     height: 460px;
     padding: 64px 0;
-   
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 .footer-container{
     width: 100%;
     height: 220px;
     padding: 0 48px;
-    background-color: brown;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.footer-description{
+    width: 94%;
+    margin: auto;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-description p{
+    font-size: 14px;
+}
+.fppter-des-flex{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-box1{
     width: 23%;
     height: 100%;
-    background-color: beige;
 }
 .box1-title{
     width: 90%;
@@ -61,15 +78,60 @@
 .footer-box2{
     width: 23%;
     height: 100%;
-    background-color: beige;
 }
 .footer-box3{
     width: 23%;
     height: 100%;
-    background-color: beige;
 }
 .footer-box4{
     width: 23%;
     height: 100%;
-    background-color: beige;
 }
+.box2-title{
+    width: 100%;
+    height: 50px;
+    padding: 15px 0;
+}
+.box2-title h4{
+    font-size: 20px;
+}
+.box-ul{
+    width: 100%;
+    height: 168px;
+    padding: 5px 0px;
+}
+.box-ul ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 28px;
+}
+.box-ul li{
+    margin-left:20px ;
+    font-size: 16px;
+    
+}
+.box-ul li::marker{
+    color: red;
+}
+.footer-box4 h3 {
+    margin-top: 0;
+    padding: 15px 0;
+    color: #1f1f1f;
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+  .footer-box4 p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 15px;
+  }
+  .footer-box4 p i {
+    color: #e41e26;
+    margin-right: 10px;
+    font-style: normal;
+    font-size: 18px;
+  }
