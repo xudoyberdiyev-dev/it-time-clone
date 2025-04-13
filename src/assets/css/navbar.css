@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     background-color:rgb(180, 44, 44);
+    
 }
 .navbar-hider-container{
     width: 88%;
@@ -17,11 +18,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .navbar-hider-left{
-    width: 68px;
+    width: 70px;
     height: 28px;
-    background-color: blue;
 }
 .navbar-hider-right{
     width: 506px;
@@ -103,6 +104,13 @@
     cursor: pointer;
     transition: 0.3s;
   }
+  .dropdown-btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #ffffff00;
+    color: white;
+  }
 
   .btn-consult:hover {
     background-color: #b91c1c;
@@ -120,4 +128,69 @@
   
   .navbar-body-right a:hover::after {
     width: 100%;
+  }
+
+  .consultation-section {
+    position: fixed; /* absolute emas, butun oynani qamrab oladi */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* butun ekran balandligi */
+    backdrop-filter: blur(10px);
+    z-index: 100; /* yuqoriroq qatlamda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .consultation-container {
+    width: 450px;
+    height: 370px;
+    background-color: #ffffff;
+    z-index: 101;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 30px 30px;
+    color: white;
+  }
+  
+  .consultation-container  h2 {
+    margin: 0 0 5px;
+    color: black;
+    font-size: 20px;
+  }
+  .consultation-container  p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  .consultation-container  input, .consultation-container  select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1.5px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .consultation-container  select {
+    border-color: red;
+  }
+  .consultation-container  button {
+    width: 100%;
+    padding: 15px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 50px;
+    color: #000000;
+    cursor: pointer;
   }

@@ -1,8 +1,8 @@
-import React from 'react'
-
+import '../../assets/css/dashboard.css'
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div className='dashboard-section'>
+    </div>
   )
 }
 
