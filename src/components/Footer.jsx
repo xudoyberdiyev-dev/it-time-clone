@@ -40,10 +40,10 @@ const Footer = () => {
           </div>
           <div className="footer-box4">
           <h3>Bog'lanish</h3>
-    <p><i class="fa-solid fa-location-dot" style={{color: "#ff0000",fontSize:"22px"}}></i> Toshkent, Amir Temur shoh ko’chasi, 100A.</p>
-    <p><i class="fa-solid fa-phone" style={{color: "#ff0000",fontSize:"22px"}}></i> +998 (94) 782 00 92</p>
-    <p><i class="fa-solid fa-envelope" style={{color: "#ff0000",fontSize:"22px"}}></i> ittimeacademy@gmail.com</p>
-    <p><i class="fa-solid fa-clock" style={{color: "#ff0000",fontSize:"22px"}}></i>Du-Sha: 09:00 - 22:00</p>
+    <p><i class="fa-solid fa-location-dot" style={{color: "#ff0000",fontSize:"20px"}}></i> Toshkent, Amir Temur shoh ko’chasi, 100A.</p>
+    <p><i class="fa-solid fa-phone" style={{color: "#ff0000",fontSize:"20px"}}></i> +998 (94) 782 00 92</p>
+    <p><i class="fa-solid fa-envelope" style={{color: "#ff0000",fontSize:"20px"}}></i> ittimeacademy@gmail.com</p>
+    <p><i class="fa-solid fa-clock" style={{color: "#ff0000",fontSize:"20px"}}></i>Du-Sha: 09:00 - 22:00</p>
           </div>
         </div>
         <div className='footer-description'>

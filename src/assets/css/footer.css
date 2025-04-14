@@ -74,7 +74,22 @@
 .box-button1{
     width: 48px;
     height: 48px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  animation: pulseShadow 2s infinite ease-in-out;
 }
+
+@keyframes pulseShadow {
+    0% {
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.633);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    }
+  }
+
 .footer-box2{
     width: 23%;
     height: 100%;
