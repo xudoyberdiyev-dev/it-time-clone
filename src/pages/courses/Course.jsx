@@ -18,9 +18,15 @@ const Course = () => {
                   <div className='boxes-about'>
                     <p>{item.about}</p>
                   </div>
-                  <p>{item.price}</p>
-                  <p>{item.muddat}</p>
-              <button>sa</button>
+                  <div className='boxes-price'>
+                    <p>{item.price}</p>
+                  </div>
+                  <div className='boxes-muddat'>
+                    <p><span><i class="fa-regular fa-clock"></i></span> {item.muddat}</p>
+                  </div>
+                  <button className='boxes-button'>
+                    Batafsil
+                  </button>
                 </div>                
               </div>
             </div>
