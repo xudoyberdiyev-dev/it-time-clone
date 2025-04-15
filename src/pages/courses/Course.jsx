@@ -33,6 +33,16 @@ const Course = () => {
           ))}
         </div>
       </div>
+      <div className="course-body">
+        <div className="course-body-section">
+          <div className="course-body-img">
+            <img src="" alt="" />
+          </div>
+          <div className="course-body-about">
+            body
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

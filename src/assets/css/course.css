@@ -34,6 +34,7 @@
     height: 180px;
     border-top-right-radius: 10px;  
     border-top-left-radius: 10px;  
+    
 }
 .boxes-body{
     width: 100%;
@@ -78,10 +79,40 @@
     height: 45px;
     border-radius: 13px;
     border: solid 2px red;
-    background-color: azure;
+    background-color: white;
     cursor: pointer;
+    transition: all 0.2s ease; /* Muloyimlik */
+    transition-delay: 0.2s;   
 }
 .boxes-button:hover{
     background-color: rgb(230, 17, 17);
     color: white;
+}
+.course-body{
+    width: 100%;
+    height: auto;
+    padding: 96px 0;
+    background-color: aqua;
+}
+.course-body-section{
+    margin: auto;
+    width: 75%;
+    height: 650px;
+    padding: 0 16px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-body-img{
+    width: 43%;
+    height: 70%;
+    background-color: aqua;
+}
+
+.course-body-about{
+    width: 46%;
+    height: 95%;
+    background-color: rgb(104, 104, 226);
+
 }
