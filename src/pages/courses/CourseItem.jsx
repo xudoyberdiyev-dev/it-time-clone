@@ -59,9 +59,25 @@ const CourseItem = () => {
                 </div>
             </div>
         </div>
-        {/* {isModal && 
-            <div className='modal-section'>salom</div>
-        } */}
+        {isModal && 
+           <div class="modal-overlay">
+             <div class="modal">
+               <div class="modal-header">
+                 <h2>Bo'lib to'lash shartlari</h2>
+                 <span class="close-btn" onClick={toggleModal}>&times;</span>
+               </div>
+               <p class="modal-subtitle">Bo'lib to'lash haqida muhim ma'lumot</p>
+               <ul class="modal-list">
+                 <li>Bo'lib to'lash uchun siz rasmiy ishlaydigan bo'lishingiz kerak</li>
+                 <li>Agar ishlamayotgan bo'lsangiz, rasmiy ishlaydigan kafil kerak bo'ladi</li>
+                 <li>Passport talab qilinadi (sizniki va kafilniki, agar kerak bo'lsa)</li>
+                 <li>To'lov o'qishni tugatganingizdan 2 oy o'tgach to'lab kelishishingiz zarur bo'ladi!</li>
+               </ul>
+             </div>
+           </div>
+           
+          
+        }
     </div>
   )
 }
