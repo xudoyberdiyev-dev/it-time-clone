@@ -92,14 +92,12 @@
     width: 100%;
     height: auto;
     padding: 96px 0;
-    background-color: aqua;
 }
 .course-body-section{
     margin: auto;
     width: 75%;
     height: 650px;
     padding: 0 16px;
-    background-color: blue;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,12 +105,182 @@
 .course-body-img{
     width: 43%;
     height: 70%;
-    background-color: aqua;
+    background-color: rgb(20, 23, 23);
 }
 
 .course-body-about{
     width: 46%;
     height: 95%;
-    background-color: rgb(104, 104, 226);
+    padding: 32px;
+}
+.sale-label{
+    width: 120px;
+    padding: 10px 16px;
+    font-size: 14.5px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.361);
+    border-radius: 15px;
+    margin: 0 0 17px 0;
+}
+.sale-header{
+    width: 100%;
+    height: 118px;
+    margin: 0 0 24px 0;
+}
+.sale-header h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.sale-header span{
+    font-size: 45px;
+    color: red;
+}
+.sale-description{
+    width: 100%;
+    height: 62px;
+    margin: 0 0 32px 0;
+}
+.sale-description p{
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.422);
+}
+.sale-benfis{
+width: 100%;
+height: 154px;
+margin:  0 0 40px 0;
 
 }
+.sale-benfis ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sale-benfis li{
+    font-size: 19px;
+    color: #1E293B;
+    list-style: none;
+    margin: 0 0 16px 0;
+}
+.sale-action{
+    width: 100%;
+    height: 96px;
+}
+.action-btn{
+    width: 154px;
+    height: 58px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.action-note{
+    width: 100%;
+    height: 21px;
+    margin: 16px 0 0 0 ;
+}
+.action-note p{
+    font-size: 14.4px;
+}
+
+/* Modal background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  /* Modal container */
+  .modal {
+    background-color: #fff;
+    padding: 24px;
+    width: 500px;
+    border-radius: 12px;
+    position: relative;
+    font-family: sans-serif;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: none;
+    background: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  /* Titles */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6b21a8;
+    margin-bottom: 8px;
+  }
+  
+  .subtitle {
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Conditions list */
+  .conditions {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .conditions li {
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  /* Bonus box */
+  .bonus-box {
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .bonus-title {
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .bonus-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .bonus-list li {
+    margin-bottom: 8px;
+  }
+  
+  /* Footer note */
+  .note {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  

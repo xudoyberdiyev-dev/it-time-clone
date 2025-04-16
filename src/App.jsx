@@ -2,12 +2,13 @@ import Aos from "aos";
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/dashboard/Dashboard";
-import Course from "./pages/courses/Course";
 import Teacher from "./pages/teachers/Teacher";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import CourseItem from "./pages/courses/CourseItem";
+import { Course } from "./pages/courses/Course";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
    <Routes>
     <Route path="/" element={<Dashboard/>}/>
     <Route path="/course" element={<Course/>}/>
+    <Route path="/course/:id" element={<CourseItem/>}/>
     <Route path="/techer" element={<Teacher/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
