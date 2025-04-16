@@ -2,13 +2,13 @@ import Aos from "aos";
 import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/dashboard/Dashboard";
-import Teacher from "./pages/teachers/Teacher";
 import About from "./pages/about/About";
-import Contact from "./pages/contact/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CourseItem from "./pages/courses/CourseItem";
 import { Course } from "./pages/courses/Course";
+import { Contact } from "./pages/contact/Contact";
+import { Teacher } from "./pages/teachers/Teacher";
 
 function App() {
   useEffect(() => {

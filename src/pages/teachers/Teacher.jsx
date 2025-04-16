@@ -1,9 +1,7 @@
 import React from 'react'
-
-const Teacher = () => {
+import '../../assets/css/teacher.css'
+export const Teacher = () => {
   return (
-    <div>Teacher</div>
+    <div>Sardor kut jallab</div>
   )
 }
-
-export default Teacher
