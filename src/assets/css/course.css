@@ -254,6 +254,54 @@ margin:  0 0 40px 0;
     color: #333;
   }
   
+  .bonus-card {
+    position: relative;
+    width: 600px  ;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .bonus-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+  }
+  
+  /* BONUS yozuvi */
+  .bonus-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff5f5;
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 6px 12px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bonus-text-top {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .bonus-amount {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px 0;
+    color: #111;
+  }
+  
+  .bonus-currency {
+    font-size: 12px;
+    color: gray;
+    margin: 0;
+  }
+  
   /* Bonus box */
   .bonus-box {
     background-color: #f2f2f2;
