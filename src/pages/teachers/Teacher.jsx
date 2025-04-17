@@ -26,13 +26,11 @@ const Teacher = () => {
                 <div className='mentor-technalogy'>
                   <h4>IXTISOSLIGI</h4>
                   <div className='technlgys'>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
-                    <div className='react'>{item.techno?.react}</div>
+                  {item.techno &&
+  Object.values(item.techno).map((tech, index) => (
+    <div key={index} className='react'>{tech}</div>
+  ))
+}
 
                   </div>
                 </div>

@@ -96,21 +96,27 @@
     font-size: 15px;
     color: rgba(0, 0, 0, 0.29);
 }
+.tarmoq{
+    width: 70%;
+    height: 36px;
+    margin-top: 80%;
+    background-color: aqua;
+}
 .technlgys{
-    width: 100%;
+    width: 90%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
 }
 .react{
-    border-radius: 10px;
+    font-size: 12px;
+    border-radius: 15px;
     width: auto;
     height: auto;
     padding: 6px 10px;
-    font-size: 14px;
     margin: 8px 0 0;
-    color: white;
+    color: rgb(255, 0, 0);
     font-weight: 540;
-    background-color: rgba(234, 0, 0, 0.714);
+    background-color: rgba(255, 161, 161, 0.591);
 }

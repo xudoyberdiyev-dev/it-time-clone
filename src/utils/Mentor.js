@@ -9,7 +9,13 @@ export const Mentor =[
         linkedIn:'',
         github:"",
         techno:{
-            react:"React.js"
+            react:"ReactJS",
+            vue:"Vue.js",
+            angular:"Angular",
+            type:"TypeScript",
+            node:"Node.js",
+            aws:"AWS",
+            ci:"CI/CD"
         },
     },
     {
@@ -22,7 +28,13 @@ export const Mentor =[
         linkedIn:'',
         github:"",
         techno:{
-            react:"Corl",
+            adobe :"Adobe Photoshop",
+            illus:"Illustrator",
+            figme:"Figma",
+            ui:"UI/UX",
+            after:"After Effects",
+            pro:"Premiere Pro",
+            corl:"CorelDraw"       
         },
     },
     {
@@ -33,7 +45,16 @@ export const Mentor =[
         about:"Frontend dasturlash sohasida boy tajribaga ega o'qituvchi sifatida, o'quvchilarga zamonaviy veb-texnologiyalarni o'rgatish bo'yicha katta ishtiyoq bilan yondashaman.",
         telegram:"",
         linkedIn:'',
-        github:""
+        github:"",
+        techno:{
+            react:"ReactJS",
+            js:"JavaScript",
+            redux:"Redux",
+            materal:"Material UI",
+            bootstrap:"Bootstrap",
+            git:"Git",
+            webpacs:"Webpack"       
+        },
     },
     {
         id:'4',
@@ -43,7 +64,15 @@ export const Mentor =[
         about:"Frontend dasturlash bo'yicha tajribali o'qituvchi sifatida, o'quvchilarga zamonaviy veb-texnologiyalarni o'rgatish bo'yicha katta tajribaga egaman.",
         telegram:"",
         linkedIn:'',
-        github:""
+        github:"",
+        techno:{
+            a:"ReactJS",
+            b:"TypeScript",
+            c:"Next.js",
+            d:"Redux",
+            e:"Tailwind CSS",
+            f:"Git",
+        },
     },
     {
         id:'5',
@@ -53,6 +82,16 @@ export const Mentor =[
         about:"Python dasturlash tili va backend texnologiyalari bo'yicha tajribali o'qituvchi sifatida, o'quvchilarga zamonaviy dasturlash asoslarini o'rgatish bo'yicha katta tajribaga egaman.",
         telegram:"",
         linkedIn:'',
-        github:""
+        github:"",
+
+        techno:{
+            a:"Python",
+            b:"Django",
+            c:"FastAPI",
+            d:"PostgreSQL",
+            e:"Docker",
+            f:"Git",
+            linux:"Linux"
+        },
     },
 ]
