@@ -59,7 +59,7 @@ const Navbar = () => {
                 <div className="navbar-body-right">
                   <Link to="/">Asosiy</Link><span>/</span>
                   <Link to="/course">Kurslar</Link><span>/</span>
-                  <Link to="/teacher">Mentorlar</Link><span>/</span>
+                  <Link to="/techer">Mentorlar</Link><span>/</span>
                   <Link to="/about">Biz haqimizda</Link><span>/</span>
                   <Link to="/contact">Aloqa</Link>
                   <button class="btn-consult" onClick={toggleModal}>Bepul konsultatsiya</button>

@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import CourseItem from "./pages/courses/CourseItem";
 import { Course } from "./pages/courses/Course";
 import { Contact } from "./pages/contact/Contact";
-import { Teacher } from "./pages/teachers/Teacher";
+import Teacher from "./pages/teachers/Teacher";
 
 function App() {
   useEffect(() => {
@@ -21,7 +21,7 @@ function App() {
     <Route path="/" element={<Dashboard/>}/>
     <Route path="/course" element={<Course/>}/>
     <Route path="/course/:id" element={<CourseItem/>}/>
-    <Route path="/techer" element={<Teacher/>}/>
+    <Route path="/techer" element={ <Teacher/> }/>
     <Route path="/about" element={<About/>}/>
     <Route path="/contact" element={<Contact/>}/>
    </Routes>
