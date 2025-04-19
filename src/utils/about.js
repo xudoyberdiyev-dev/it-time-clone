@@ -19,7 +19,7 @@ export const stastc =[
 ]
 
 export const description=[
-    {id:'1',icon:"",title:"Xalqaro sertifikatlar",about:"Xalqaro standartlarga mos sertifikatlar bilan ta'minlaymiz"},
+    {id:'1',icon:"🤝",title:"Xalqaro sertifikatlar",about:"Xalqaro standartlarga mos sertifikatlar bilan ta'minlaymiz"},
     {id:'2',icon:"",title:"IT kompaniyalar bilan hamkorlik",about:"Yetakchi IT kompaniyalar bilan hamkorlikda ish olib boramiz"},
     {id:'3',icon:"",title:"Amaliy ta'lim",about:"Nazariy bilimlar bilan birga amaliy ko'nikmalarni shakllantiramiz"},
 ]

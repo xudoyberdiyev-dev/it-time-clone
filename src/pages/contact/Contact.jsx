@@ -2,9 +2,23 @@ import React from 'react'
 import '../../assets/css/contact.css'
 export const Contact = () => {
   return (
-    <div>
-      <div>
-
+    <div className='contact-section'>
+      <div className='contact-header'>
+        <div className='header-text'>
+          <h1>Biz bilan aloqaga chiqmohchimisiz?</h1>
+          <p>Formani to'ldiring va biz siz bilan bog'lanamiz</p>
+        </div>
+        <div className='contact-form'>
+          <div className='name-inout'>
+            <label htmlFor="">Ismingiz</label>
+            <input type="text" placeholder='Ismingizni kiriting'/>
+          </div>
+          <div className='surname-input'>
+          <label htmlFor="">Telifon raqam</label>
+          <input type="text" placeholder='Telifon raqamingizni kiriting'/>
+          </div>
+          <button className='contact-btt'>Salom</button>
+        </div>
       </div>
       <div className="contact-section">
   <div className="contact-info">

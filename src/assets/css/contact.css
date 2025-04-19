@@ -1,3 +1,94 @@
+.contact-section{
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+.contact-header{
+  width: 80%;
+  height: 512px;
+  margin: 0 92px;
+  padding: 64px 0;
+}
+.header-text{
+  width: 672px;
+  height: 88px;
+  margin: 0 300px;
+}
+.contact-form{
+  width: 448px;
+  height: 248px;
+  margin: auto;
+}
+.header-text h1{
+  width: 100%;
+  height: 40px;
+  margin:  0 0 16px;
+  font-size: 36px;
+  text-align: center;
+  color: red;
+}
+.header-text p{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  text-align: center;
+}
+.name-inout{
+  width: 100%;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.name-inout label{
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.name-inout input{
+  width: 100%;
+  height: 50px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+.surname-input label{
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+.surname-input input{
+  width: 100%;
+  height: 50px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: solid 1px black;
+}
+.surname-input{
+  width: 100%;
+  height: 74px;
+  margin: 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-btt{
+  width: 100%;
+  height: 52px;
+  padding: 14px;
+  margin: 24px 0 0;
+  font-size: 16px;
+  background-color: #d32f2f;
+  color: white;
+  border-radius: 10px;
+  font-weight: 550;
+  border: none;
+  cursor: pointer;
+}
 .contact-section {
     display: flex;
     gap: 30px;
